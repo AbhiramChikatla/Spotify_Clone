@@ -1,0 +1,41 @@
+.bg-grey {
+    background-color: #121212;
+}
+.invert {
+    filter: invert(1);
+}
+.border {
+    border: 2px solid red;
+    margin: 3px;    
+}
+.bg-black{
+    background-color: #000000;
+}
+.rounded{
+    border-radius: 8px;
+}.m-1{
+    margin: 5px;
+}.p-1{
+    padding: 10px;
+}
+/* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222; /* Dark background color for the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #444; /* Dark color for the handle */
+    border-radius: 6px; /* Rounded corners for the handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Dark color for the handle on hover */
+  }
+  
